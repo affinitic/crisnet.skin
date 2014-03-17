@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<import-steps>
+  <import-step id="crisnet.skin.various"
+               version="20090705-01"
+               handler="crisnet.skin.setuphandlers.setupVarious"
+               title="CrisnetSkin: miscellaneous import steps">
+    <dependency step="skins" />
+    Setup portal for crisnet skin
+  </import-step>
+</import-steps>

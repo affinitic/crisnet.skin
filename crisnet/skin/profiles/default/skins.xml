@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<object name="portal_skins" 
+        allow_any="False" 
+        cookie_persistence="False">
+
+ <object name="crisnet_images"
+         meta_type="Filesystem Directory View"
+         directory="crisnet.skin:skins/crisnet_images"/>
+ <object name="crisnet_templates"
+         meta_type="Filesystem Directory View"
+         directory="crisnet.skin:skins/crisnet_templates"/>
+ <object name="crisnet_styles"
+         meta_type="Filesystem Directory View"
+         directory="crisnet.skin:skins/crisnet_styles"/>
+
+ <skin-path name="CrisnetSkin" based-on="Plone Default">
+  <layer name="crisnet_images"
+         insert-after="custom"/>
+  <layer name="crisnet_templates"
+         insert-after="crisnet_images"/>
+  <layer name="crisnet_styles"
+         insert-after="crisnet_templates"/>
+ </skin-path>
+
+</object>

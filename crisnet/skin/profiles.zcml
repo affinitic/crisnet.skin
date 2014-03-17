@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="crisnet.skin">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Crisnet Skin"
+      directory="profiles/default"
+      description='Extension profile for the "crisnet.skin" Plone theme.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>

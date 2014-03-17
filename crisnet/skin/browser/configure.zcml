@@ -1,0 +1,39 @@
+<configure
+        xmlns="http://namespaces.zope.org/zope"
+        xmlns:plone="http://namespaces.plone.org/plone"
+        xmlns:browser="http://namespaces.zope.org/browser"
+        i18n_domain="crisnet.skin">
+
+        <!-- 'crisnet.skin' Zope 3 browser layer -->
+        <interface
+            interface=".interfaces.ICrisnetTheme"
+            type="zope.publisher.interfaces.browser.IBrowserSkinType"
+            name="CrisnetSkin"
+            />
+            
+        <!-- Customize the navigation portlet -->
+        <plone:portletRenderer
+            portlet="plone.app.portlets.portlets.navigation.INavigationPortlet"
+            layer=".interfaces.ICrisnetTheme"
+            class=".navigation.MyNavRenderer"
+            />
+
+        <!-- crisnet header -->
+        <browser:viewlet
+            name="crisnet.header"
+            manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+            class=".viewlets.CrisnetHeaderViewlet"
+            layer=".interfaces.ICrisnetTheme"
+            permission="zope.Public"
+            />
+
+        <!-- crisnet footer -->
+        <browser:viewlet
+            name="crisnet.footer"
+            manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+            class=".viewlets.CrisnetFooterViewlet"
+            layer=".interfaces.ICrisnetTheme"
+            permission="zope.Public"
+            />
+
+</configure>

@@ -1,0 +1,441 @@
+/*                                             */
+/* Stylesheet for the 'CRISNET ASBL' Plone theme */
+/*  by AFFINITIC  www.affinitic.be             */
+/*                                             */
+
+/*** BODY ***/
+body{
+background-color:#fff;
+background-image:url(background.png);
+}
+
+
+/*** HEADER ***/
+#portal-header{
+width:1022px;
+height:150px;
+margin-right:auto;
+margin-left:auto;
+border-left:1px solid #8b8378;
+border-right:1px solid #8b8378;
+}
+
+#header-crisnet{
+margin-left:auto;
+margin-right:auto;
+background-color:#faf0e6;
+background-image:url(crisnet.jpg);
+width:1022px;
+height:132px;
+border-left:1px solid #8b8378;
+border-right:1px solid #8b8378;
+}
+
+
+#portal-top {
+margin-left:auto;
+margin-right:auto;
+background-color:transparent;
+padding:0pt;
+}
+
+#portal-personaltools {
+border-top-width: 0px;
+margin-left:auto;
+margin-right:auto;
+width:1016px;
+background-color:#faf0e6;
+border-bottom:1px solid #eee;
+border-left:1px solid #8b8378;
+border-right:1px solid #8b8378;
+color:#000;
+line-height:1.6em;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+padding:0em 6px 0px 0px;
+text-align:right;
+text-transform:none;
+}
+
+#portal-breadcrumbs {
+position:relative;
+width:1012px;
+margin-left:auto;
+margin-right:auto;
+border-bottom-width:0px;
+border-left:1px solid #8b8378;
+border-right:1px solid #8b8378;
+border-bottom:1px solid #eee;
+background-color:#fff;
+line-height:1em;
+padding:5px 5px 5px 5px;
+text-transform:none;
+}
+
+
+#portaltab-index_html {
+background-color:#f8a861;
+}
+#portaltab-index_html li a {
+background-color:#f8a861;
+}
+#portaltab-index_html li a:hover {
+background-color:#01519a;
+}
+
+
+/*** COLONNES ***/
+#portal-columns{
+background-color:#fff;
+width:1022px !important;
+margin-left:auto;
+margin-right:auto;
+border-collapse:collapse;
+border-spacing:0pt;
+border-left:1px solid #8b8378;
+border-right:1px solid #8b8378;
+}
+
+#portal-columns tbody {
+border-bottom: 0px solid #e58c71;
+}
+
+#portal-column-one {
+border-collapse:collapse;
+padding:0 0 0 4px;
+vertical-align:top;
+width:175px;
+}
+
+#portal-column-one .visualPadding {
+padding:1em 0 1em 0;
+}
+
+#portal-column-two{
+padding:0 4px 0 0px;
+width:175px;
+}
+
+#portal-column-two .visualPadding {
+padding:1em 0 1em 0;
+}
+
+
+/*** PORTLET ***/
+.portlet {
+background-color:transparent;
+border-bottom:1px solid #e58c71;
+margin:1px 0 1em;
+}
+
+.portletHeader, .managedPortlet .portletHeader {
+background-color:#faf0e6;
+border:1px solid #e58c71;
+font-weight:normal;
+line-height:1.6em;
+padding:0 1em;
+text-transform:none;
+}
+
+.portletItem {
+border-left:1px solid #e58c71;
+border-right:1px solid #e58c71;
+margin:0;
+padding:1em;
+}
+
+.even {
+background-color:#faf0e6;
+}
+
+.portletFooter {
+background-color:#faf0e6;
+border-color:#e58c71;
+border-style:dotted solid none;
+border-width:1px;
+margin:0;
+padding:0.25em 1em;
+text-align:right;
+}
+
+.portletHeaderMenuPlateForme {
+margin-left:15px;
+background-image:url(bg_hd_portlet_menu_plateforme.png);
+background-repeat:no-repeat;
+width:175px;
+height:31px;
+background-color:transparent;
+border:0px solid #8b8378;
+font-weight:normal;
+line-height:1em;
+padding:5px 20px 0px 0px;
+text-transform:none;
+margin-bottom:-5px;
+}
+
+.portletHeaderMenuPlateForme a{
+color:#fff;
+text-align:center;
+font-weight:bold;
+}
+
+
+.portletItemMenuPlateForme {
+width:187px;
+background-color:#fff;
+border-left:1px solid #000;
+border-right:1px solid #000;
+margin:0;
+margin-left:15px;
+padding:5px 0px 5px 3px;
+}
+
+.navTreeItemMenuPlateForme a, dd.portletItemMenuPlateForme .navTreeItemMenuPlateForme a {
+margin-left:15px;
+border-width:1px 1px 1px 1px;
+border-style:solid solid dashed solid; 
+border-color:#fff #fff #ccc #fff;
+display:block;
+padding-bottom:0.3em;
+padding-top:0.3em;
+padding-left:3px;
+text-decoration:none;
+}
+
+.navTreeItemMenuPlateForme a:hover, dd.portletItemMenuPlateForme .navTreeItemMenuPlateForme a:hover {
+background-color:#DEE7EC;
+border:1px solid #8CACBB;
+color:#436976;
+}
+
+.portletFooterMenuPlateForme{
+background-image:url(bg_ft_portlet_menu_plateforme.png);
+background-repeat:no-repeat;
+width:192px;
+height:31px;
+background-color:transparent;
+border-color:#000;
+border-style:none;
+border-width:0px;
+margin-left:15px;
+padding:0.25em 1em;
+text-align:right;
+margin-top:0px;
+}
+
+/*** SEARCH ***/
+.portletItemSearch{
+background-color:transparent;
+border-left:0 solid #8b8378;
+border-right:0 solid #8b8378;
+border-bottom:0px solid #e58c71;
+margin:0;
+padding-left:30px;
+}
+
+input.searchField{
+border:1px solid #9f515a;
+color:#000;
+font-family:"Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
+font-size:1em;
+visibility:visible;
+}
+
+input.searchButton {
+background-color:#ccc;
+border:0px solid #e58c71;
+color:#000;
+cursor:pointer;
+font-size:90%;
+margin-top:3px;
+margin-bottom:1px !important;
+padding-left:16px;
+text-transform:none;
+}
+
+
+/*** CALENDAR ***/
+.portletCalendar dt {
+background-color:#faf0e6;
+border-bottom:medium none;
+font-weight:normal;
+line-height:1.6em;
+text-align:center;
+}
+
+.ploneCalendar .weekdays th {
+background-color:#faf0e6;
+border-color:#e58c71;
+border-style:solid none;
+border-width:1px;
+font-weight:normal;
+padding:2px;
+text-align:center;
+}
+
+/*** FOOTER ***/
+#footer-crisnet{
+/*background-image:url(barre_ombre_footer.png);
+background-repeat:repeat-x;
+background-position:center top;*/
+background-color:#eee;
+margin-left:auto;
+margin-right:auto;
+width:992px !important;
+margin-left:auto;
+margin-right:auto;
+border-left:1px solid #8b8378;
+border-right:1px solid #8b8378;
+border-bottom:1px solid #8b8378;
+padding:20px 30px 5px 0px;
+text-align:center;
+}
+
+
+/*** CRISNET NEWS ***/
+.crisnetnews{
+margin-top:10px;
+margin-left:15px;
+border-bottom:1px solid #f9eddf;
+}
+
+.crisnetnews-title{
+font-size:1.2em;
+font-weight:bold;
+}
+
+.crisnetnews-description{
+padding-left:15px;
+}
+
+.crisnetnews-date{
+color:#888;
+font-size:0.8em;
+}
+
+#crisnetnews-image{
+float:left;
+margin-right:15px;
+}
+
+#crisnetnews-content{
+margin-left:85px;
+}
+
+
+
+/***PORTLET PLATE-FORME***/
+.portletHeaderPlateForme {
+margin-left:15px;
+margin-top:2em;
+background-color:transparent;
+background-image:url(bg_hd_portlet_plateforme.png);
+background-repeat:no-repeat;
+width:192px;
+height:31px;
+border:none;
+color:#fff;
+text-align:center;
+font-weight:normal;
+padding-left:20px;
+padding-top:9px;
+text-transform:none;
+margin-bottom:-9px;
+}
+
+.portletItemPlateforme{
+background-color:#d6e8f2;  /*#e0e5f2;*/
+border-left:1px solid #000;
+border-right:1px solid #000;
+margin:0;
+margin-left:15px;
+padding:5px 0 5px 6px;
+width:184px;
+}
+
+
+dd.portletItemPlateforme a:hover{
+background-color:#b7cad3;
+text-decoration:underline overline;
+color:#000;
+}
+
+
+.portletFooterPlateForme {
+background-image:url(bg_ft_portlet_plateforme.png);
+background-repeat:no-repeat;
+width:192px;
+height:31px;
+background-color:transparent;
+border-color:#000;
+border-style:none;
+border-width:0px;
+margin-left:15px;
+padding:0.25em 1em;
+text-align:right;
+margin-top:0px;
+}
+
+/*** STYLE INTERNE ***/
+/*masque le monstrueux petit glode du lien externe*/
+#coq a[href^="http:"], #coq a.link-external{
+background-color:transparent;
+background-image: none;
+}
+#content a[href^="http:"], #content a.link-external {
+background-color:transparent;
+background-image: none;
+padding:1px 0 1px 1px;
+}
+
+/* style des couleurs titre et content */
+#content {
+  color:#000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+color:#d2915d
+}
+
+/*** GALERIE ***/
+div#plone-true-gallery {
+background-color:transparent;
+}
+
+.jcarousel-skin-truegallery .jcarousel-container {
+background:transparent;
+border:1px solid #999;
+margin:auto;
+}
+
+
+/*** KUPU STYLE ***/
+.para-justifie{
+line-height:1.5em;
+margin:0 0 0.75em;
+text-align:justify;
+}
+
+
+
+/*** STYLE ETAT WORKFLOW ***/
+.state-visible {
+color:#0F741E !important;
+}
+
+.state-published {
+color:#000 !important;
+}
+
+.state-external {
+color:#000 !important;
+}
+
+.state-internally_published {
+color:#00F !important;
+}
+
+.state-internal {
+color:#0F741E !important;
+}
